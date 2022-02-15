@@ -30,9 +30,29 @@ public class Ex04Integer {
 		System.out.println(10);
 
 		int a; // 변수 선언(생성)
+		// System.out.println("a : " + a); // Error
+		// 모든 변수는 초기화 후에 사용해야 합니다...
+
 		a = 10; // 변수 초기화
 
 		System.out.println("a : " + a);
+
+		a = 20;
+		System.out.println("a : " + a);
+
+		int ia = 11;
+		System.out.println("ia :" + ia);
+
+		// byte ba = 128; 에러 바이트를 넘었음
+		// System.out.println("ba : " + ba);
+
+		byte ba = 127; // 가능
+
+		short sa = 32767;
+		System.out.println("sa : " + sa);
+		
+		long la = 2147483647; // 최대값
+		System.out.println("la : " + la);
 
 	}
 }
